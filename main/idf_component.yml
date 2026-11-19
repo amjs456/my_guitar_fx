@@ -1,0 +1,9 @@
+dependencies:
+  my_guitar_fx_core:
+    path: ../components/my_guitar_fx_core
+
+  my_guitar_fx_effects:
+    path: ../components/my_guitar_fx_effects
+
+  my_guitar_fx_ui:
+    path: ../components/my_guitar_fx_ui
