@@ -15,6 +15,7 @@
 #include "delay.h"
 #include "delay_ui.h"
 #include "distortion.h"
+#include "distortion_ui.h"
 
 
 static tuner_arg_t tuner_arg = {
@@ -50,6 +51,11 @@ void app_main(void)
             delay_ui_create,
             &delay_args
         },
+        {"Distortion",
+            distortion,
+            distortion_ui_create,
+            &distortion_args
+        }
     };
 
     size_t fx_array_length = sizeof(fx_array) / sizeof(fx_array[0]);
